@@ -1,11 +1,8 @@
-'use strict'
-const React = require('react');
+import React from 'react';
 
-
-class Title extends React.Component{
-    render(){
-        return React.createElement('div',null,'Hello World')
+class Title extends React.Component {
+    render() {
+        return <div>ASDAdasdadsada</div>;
     }
 }
-
-module.exports = Title;
+export default Title;
